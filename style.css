@@ -7,7 +7,7 @@ body{
     background-position: center 30px;
     background-attachment: fixed;
     color: #3E3E3E ;
-    padding-top: 0;
+    padding-top: 700px;
 
 }
 
@@ -71,25 +71,65 @@ section h2{
     max-width: 520px;
     margin: auto;
     border: 1opx solid ;
+    display: flex;
 }
 
 .icones{
-    list-style:none:
+    list-style:none;
 }
 
-iocnes li{
+.icones li{
     display: inline-block;
 }
 
 ul{
-    list-style: nobne;
+    list-style: none;
 }
-ícones{
-
-
+.ícones{
     list-style-position: none;
 }
 
-icones li{
+.icones li{
  display: inline-block;
+ padding: 0 10px;
 }
+
+.coluna{
+    
+    width: 100%;
+}
+
+form{
+    position: relative;
+}
+
+.botaoefeito:hover{
+
+    cursor: pointer;
+    
+}
+
+@media(max-width:991px){
+    body{
+        background-attachment:scroll;
+        padding-top: 450px;
+    }
+}
+
+@media(max-width:768px){
+
+    header a{
+
+        display: block;
+        max-width: 200px;
+        margin: 10px auto;
+        
+
+    }
+
+    .linha{
+        flex-direction: column;
+    }
+
+}
+
